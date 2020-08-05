@@ -43,7 +43,7 @@ Para finalizar a experimentação do cansat, é necessário fazer a análise dos
 
 ## Licença
 
-Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE.md](LICENSE.md) para obter detalhes.
+Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE.md](LICENSE) para obter detalhes.
 
 ## Agradecimentos
 
