@@ -1,6 +1,8 @@
 # Pico-Satellites-PIBITI-2019-2020
 Neste repositório é apresentado parte de um projeto associado a Iniciação Científica, com bolsa PIBITI, através do CNPq que se iniciou em agosto de 2019, a qual têm o objetivo de analisar abordagens da ciência espacial e tecnológica no ensino de ciências, com ênfase em física aeroespacial, envolvendo alunos da Educação Básica (Ensino Fundamental e Médio) da rede pública das cidades do Litoral Norte, do Estado de São Paulo, Brasil. Os  principais temas abordados no projeto são os pico-satélites e a física aplicada ao  desenvolvimento de satélites, sondas e foguetes, com ênfase na evolução histórica dos conhecimentos associados à Física Espacial e à Astronáutica. Em paralelo, foi construído um protótipo de pico-satélite partindo da tecnologia de embarcado (microcontroladores, tais como o arduino), aplicando-os diretamente na produção do protótipo do pico-satélites (cujo repositório está apresentado aqui). O modelo a ser confeccionado será um CanSat, palavra com união dos termos “can” (“lata” em inglês) e “sat” (abreviação da palavra “satélite” em inglês), ou seja, um satélite em uma lata de refrigerante.
 
+## Começando
+
 O objetivo desse satélite é ser acessível para que qualquer um possa confeccioná-lo, portanto, seu desenho e seu material foi pensado para ser de baixo custo. O objeto é composto por cinco partes, na quais são: microcontrolador; sensores; datalogger (registrador de dados); alimentação; estrutura.
 Para o microcontrolador, foi utilizado o ESP32 DevKit Doit com 30 pinos, como mostra na figura 1, item a. Não foi escolhido apenas pelo hardware, mas sim por ele ter Wi-Fi e RTC (Real Time Clock ou Relógio de Tempo Real em português) integrado ao seu circuito, módulos que acrescentando a parte sairiam muito mais caro, perdendo um dos conceitos de ser de baixo custo, além de ocupar mais espaço.
    
@@ -32,4 +34,19 @@ O microcontrolador necessita de um programado para executar sua função, neste 
 | <img src="PicoSat/img/PicoSat/Fluxograma.png"  width="700"/> |
 
 Para finalizar a experimentação do cansat, é necessário fazer a análise dos dados, para tanto, o arquivo .csv pode ser lido em algum software de planilha (Excel, google planilhas) ou em outro meio de análise de dados. No caso deste projeto, foi utilizado a segunda opção, na qual utilizando a linguagem de Python, foi feito uma relação entre os dados e plotando gráficos, como temperatura em função do tempo, umidade em função do tempo, etc. O código fonte deste programa de análise de dados, também está no repositório do Github do bolsista.
+
+## Autores
+
+* ** Yeté Abunã Marques Labarca ** - * Autor * - [SaruMan64](https://github.com/SaruMan64)
+* ** Ricardo Roberto Plaza Teixeira ** - * Orientador *
+
+
+## Licença
+
+Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE.md](LICENSE.md) para obter detalhes.
+
+## Agradecimentos
+
+Agradecemos ao CNPq pela bolsa PIBITI e ao IFSP - Caraguatatuba e às escolas em que foram realizadas as atividades de divulgação científica.
+
 
