@@ -37,8 +37,8 @@ Para finalizar a experimentação do cansat, é necessário fazer a análise dos
 
 ## Autores
 
-* ** Yeté Abunã Marques Labarca ** - * Autor * - [SaruMan64](https://github.com/SaruMan64)
-* ** Ricardo Roberto Plaza Teixeira ** - * Orientador *
+* **Yeté Abunã Marques Labarca** - *Autor* - [*Github*](https://github.com/SaruMan64) - [*CV*](http://lattes.cnpq.br/4293840717688049)
+* **Ricardo Roberto Plaza Teixeira** - *Orientador* - [*CV*](http://lattes.cnpq.br/3547496765385198)
 
 
 ## Licença
